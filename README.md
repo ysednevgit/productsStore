@@ -34,5 +34,13 @@ As you can see business logic located in our ProductsDelegate is mostly covered
 
 ![img_2.png](img_2.png)
 
+**Assumptions**
+
+Each user has a unique cartId, if a user does not have a cart it will be created on a first "add to cart" call
+Min value for quantity is 1
+For simplicity users can only add items to a cart
+
+**Ways to improve:**
+
 One way to improve the application is to return specific messages when user input is invalid. 
 For example now in add to cart request if you try to add a negative quantity you will get a generic error message
