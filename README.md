@@ -1,9 +1,13 @@
 # ProductsStore
  E-Commerce app which allows users to view products, see product details and add products to a cart.
 
-This application uses spring boot, mongodb Atlas cloud so that you can run it right away.
+This application uses spring boot, mongodb cloud.
+If you would like to check the database data go to cloud.mongodb.com, enter login/password ysednev/testPassword1 
+click database, browse collections
+![img_5.png](img_5.png)
 
-To start follow these steps:
+
+To start the application follow these steps:
 
 1) Install maven 3, java 11
 2) Open productsStore folder and run this command in console: mvnw spring-boot:run
